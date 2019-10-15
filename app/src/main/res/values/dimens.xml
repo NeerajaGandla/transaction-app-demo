@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="card_corner">12dp</dimen>
+    <dimen name="margin_top">20dp</dimen>
+    <dimen name="margin_side">30dp</dimen>
+    <dimen name="padding_high">10dp</dimen>
+    <dimen name="text_big">18sp</dimen>
+    <dimen name="margin_medium_wide">10dp</dimen>
+    <dimen name="margin_side_small">10dp</dimen>
 </resources>
