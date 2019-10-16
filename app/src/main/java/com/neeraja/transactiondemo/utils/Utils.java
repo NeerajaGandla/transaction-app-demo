@@ -99,6 +99,19 @@ public class Utils {
         }
     }
 
+    public static Object parseResp(InputStream is, Class<?> classOfT)
+            throws Exception {
+        try {
+            Reader readr = new InputStreamReader(is);
+            return gson.fromJson(readr, classOfT);
+        } catch (Exception e) {
+            Utils.logE(e.toString());
+            throw new CustomException(Constants.ERROR_PARSING,
+                    Constants.DATA_INVALID);
+            // throw e;
+        }
+    }
+
     public static boolean getConnectivityStatus(Context context) {
         ConnectivityManager cm = (ConnectivityManager) context
                 .getSystemService(Context.CONNECTIVITY_SERVICE);

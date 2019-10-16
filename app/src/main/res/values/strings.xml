@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">TransactionDemo</string>
+    <string name="amount">Amount</string>
+    <string name="internet_connection_msg">Check Internet Connection</string>
+    <string name="ok">Ok</string>
+    <string name="valid_amount">Please Enter Amount</string>
+    <string name="valid_description">Please Enter Description</string>
+    <string name="success_transaction">Transaction Successful</string>
+    <string name="gbp">GBP</string>
+    <string name="low_balance">Your Available Balance is Low to Make this Transaction</string>
+    <string name="invalid_amount">Invalid Amount Value</string>
 </resources>

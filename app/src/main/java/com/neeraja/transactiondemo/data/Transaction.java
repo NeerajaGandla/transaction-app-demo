@@ -1,17 +1,19 @@
 package com.neeraja.transactiondemo.data;
 
+import com.google.gson.Gson;
+
 public class Transaction {
-    private int id;
+    private String id;
     private String date;
     private String description;
     private String amount;
     private String currency;
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -49,6 +51,6 @@ public class Transaction {
 
     @Override
     public String toString() {
-        return super.toString();
+        return new Gson().toJson(this);
     }
 }

@@ -7,4 +7,8 @@
     <dimen name="text_big">18sp</dimen>
     <dimen name="margin_medium_wide">10dp</dimen>
     <dimen name="margin_side_small">10dp</dimen>
+    <dimen name="dialog_elevation">12dp</dimen>
+    <dimen name="padding_low">5dp</dimen>
+    <dimen name="margin_small">10dp</dimen>
+    <dimen name="text_medium">16sp</dimen>
 </resources>

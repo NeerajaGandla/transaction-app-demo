@@ -1,5 +1,7 @@
 package com.neeraja.transactiondemo.data;
 
+import com.google.gson.Gson;
+
 public class LoginResponse {
     private String token;
 
@@ -13,6 +15,6 @@ public class LoginResponse {
 
     @Override
     public String toString() {
-        return super.toString();
+        return new Gson().toJson(this);
     }
 }
